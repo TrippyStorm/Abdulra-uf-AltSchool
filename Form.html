@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Application Form</title>
+    <style>
+    body {
+      background-image: url('./images/thybg.jpg');
+      background-repeat: no-repeat;
+      background-attachment: fixed;  
+      background-size: cover;
+    }
+    </style>
+
+  </head>
+  <body>
+    <div class="navbar">
+      <nav>
+        <h3>
+          <b><u>Assignment 1</u></b>
+        </h3>
+        <ul>
+          <aside>
+            <a href="Index.html">Home</a>
+            &nbsp; &nbsp; &nbsp;<a href="">Sign in</a>
+          </aside>
+        </ul>
+      </nav>
+      <hr>
+      <hr>
+    </div>
+    <header>
+        <h1>Application Form</h1>
+        <p>Kindly fill out the form with the appropriate details<p> 
+          <hr>
+    </header>
+
+    <div class="container">
+        <form action="">
+            
+         <div>
+          <label for="firstname"><b>First Name</b></label>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <label for="lastname"><b>Last Name</b></label> 
+        
+         </div>
+         <div>
+         <input type="text" id="fname" name="firstname"  placeholder="Enter first name"> 
+         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" id="lname" name="lastname" placeholder="Enter last name">
+        </div>
+          <br>
+          <div> 
+          <label for="gender"><b>Gender</b></label>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <label for="DOB"><b>Date of Birth</b></label>
+          </div>
+          <div>
+          <select id="gender" name="gender" placeholder="Select gender">
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+            <option value="prefer not say">Prefer not to say</option>
+          </select>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <input type="date" id="DOB" name="DOB"></select>
+          </div>
+          <br>
+          <nav>
+            <div>   
+            <label for="email"><b>Email Address</b></label>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;
+            <label for="educationlevel"><b>Education Level</b></label>
+          </div>
+          <div>
+            <input type="email" id="email" name="email"  placeholder="Enter email address">
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;
+           <input type="text" id="edlevel" name="educationlevel" placeholder="Enter education level">
+          </div>
+            </nav>
+
+            <br>
+            <nav>   
+              <div>
+              <label for="phone number"><b>Phone Number</b></label>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              <label for="employmentstatus"><b>Employment Status</b></label>
+              
+              </div>
+              <div>    
+             <input type="text" id="Phnnumber" name="Phonenumber"  placeholder="08163******">
+             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+             <select name="employmentstatus" id="empstat">
+                <option value="employed">employed</option>
+                    <option value="unemployed">umemployed</option>
+                        <option value="self-employed">self-employed</option>    
+                </option>
+             </select>
+              </div>
+              </nav>
+              <br>
+              <nav>
+                <div>
+               <label for="chooseschool"><b>Choose School</b></label>
+               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+               <label for="selecttrack"><b>Select Track</b></label>
+               </div>
+
+               <div>
+               <select name="chooseschool" id="cschool">
+                <option value="School of engineering">School of Engineering</option>
+                <option value="School of data">School of Data</option>
+                <option value="School of design">School of Design</option>
+                <option value="School of Business">School of Business</option>
+
+
+               </select>
+               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+               &nbsp;&nbsp;&nbsp;&nbsp;
+             <select name="selecttrack" id="selecttrack">
+                <option value="frontend track">Frontend</option>
+                    <option value="backend track">Backend</option>
+                        <option value="cloud-engineering">Cloud-engineering</option>
+                        <option value="data analysis">Data Analysis</option>
+
+             </div>   
+                </nav>
+                <br>
+                <div>
+                         <input type="submit" name="submit" value="Proceed">
+
+                </div>
+        </form>
+      </div>
+               </body>
+</html>
