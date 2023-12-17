@@ -1,6 +1,3 @@
-# Abdulra-uf-AltSchool
-AltSchool School of Engineering Tinyuka First Semester 
-
 #Assignment 1
 Write out the HTML for 2 pages linked together that is accessible, it should use the anchor tag to create a good global navigation.
 Page 1: An about me page with details including your personal details, reasons for joining AltSchool, and what you plan to achieve with AltSchool.
