@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin&family=Poppins:wght@600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Cabin', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: var(--cl-offwhite, #FAF9F6);
+    
+}
+
+.wrapper{
+    margin: 150px auto;
+    width: 80%;
+    padding-top: 20px;
+    padding-bottom: 455px;
+}
+
+img{
+    margin: 30px 70px;
+    width: 77.333px;
+    height: 80px;
+    filter: drop-shadow(0px 4px 10px rgba(0, 0, 0, 0.10));
+}
+
+.textbox{
+    margin: 30px 70px;
+    color: var(--cl-black, #000B0A);
+    font-family: 'Cabin', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 50px;
+    letter-spacing: -0.8px; 
+}
+
+.txtbox{
+    color: var(--cl-grey, #737373);
+    font-family: 'Cabin', sans-serif;
+    font-family: 'Poppins', sans-serif;    
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+}
+form {
+    padding: 200px 30px;
+    background: #fff;
+    max-width: 900px;
+    width: 100%;
+    border-radius: 7px;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.05);
+  }
+
+form{
+    padding-top: 20%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+form .Input-box{
+    margin: 20px 0 19px 0;
+    width: calc(100% / 2 - 20px);
+}
+
+form .Input-box details{
+    font-weight: 500px;
+    margin-bottom: 5px;
+    
+}
+form .Input-box input {
+    width: 238px;
+    height: 48px;
+    flex-shrink: 0;
+}
+
+form .Input-box select {
+    width: 238px;
+    height: 48px;
+    flex-shrink: 0;
+}
+
+form .placeholder{
+    color: var(--cl-grey, #737373);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 20px; 
+    letter-spacing: 0.2px;
+}
+
+.registerbtn {
+    background-color: #04AA6D;
+    color: white;
+    padding: 16px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    text-align: center;
+  }
+
+.TnC{
+    color: #000;
+    font-family: Sofia Pro;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+    text-align: center;
+  }
+
